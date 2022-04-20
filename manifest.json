@@ -1,0 +1,32 @@
+{
+	"sap.app": {
+		"id": "sk.peterlabuda.Resume",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sk.peterlabuda.Resume.view.Resume",
+			"type": "XML",
+			"async": true
+		},
+		
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.uxap": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"view/Resume.view.xml",
+					"controller/Resume.controller.js",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}
