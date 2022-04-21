@@ -6,8 +6,8 @@ sap.ui.define([
 	"use strict";
 	return Controller.extend("sk.peterlabuda.Resume.controller.Resume", {
 		onInit: function () {
-			// var oJsonModel = new JSONModel("/model/resume.json");
-			// this.getView().setModel(oJsonModel, "Resume");
+			var oJsonModel = this.getOwnerComponent().getModel("Resume");
+			this.getView().setModel(oJsonModel, "Resume");
 		},
 		
 	});
