@@ -28,7 +28,8 @@
 			"Resume": {
 				"type": "sap.ui.model.json.JSONModel",
 				"dataSource": "resumeModel"
-			},          
+		}
+	},          
 		"config": {
 			"sample": {
 				"stretch": true,
