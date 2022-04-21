@@ -37,6 +37,7 @@
 					"view/Resume.view.xml",
 					"controller/Resume.controller.js",
 					"model/resume.json",
+					"Component.js",
 					"manifest.json"
 				]
 			}
