@@ -17,7 +17,7 @@
 			
 				<expandedHeading>
 					<m:HBox>
-						<m:Title text="{Resume>/name}" wrapping="true"/>
+						<m:Title text="{Resume/title} {Resume>/name} {Resume>lastName} {Resume>/phone}" wrapping="true"/>
 						<m:ObjectMarker type="Favorite" class="sapUiTinyMarginBegin"/>
 					</m:HBox>
 				</expandedHeading>
@@ -25,7 +25,7 @@
 				<snappedHeading>
 					<m:FlexBox  fitContainer="true" alignItems="Center">
 						<m:Avatar src="./resources/images/portrait.jpg" class="sapUiTinyMarginEnd"/>
-						<m:Title text="{Resume>/name}" wrapping="true"/>
+						<m:Title text="{Resume/title} {Resume>/name} {Resume>lastName} {Resume>/phone}" wrapping="true"/>
 					</m:FlexBox>
 				</snappedHeading>
 
